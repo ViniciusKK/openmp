@@ -1,3 +1,5 @@
+OpenMP
+
 Soma (serial): 5050355363
 Tempo decorrido (serial): 0.245489 segundos
 Soma (OpenMP com 2 threads): 5050355363
@@ -8,3 +10,25 @@ Soma (OpenMP com 8 threads): 5050355363
 Tempo decorrido (OpenMP com 8 threads): 0.053533 segundos
 Soma (OpenMP com 16 threads): 5050355363
 Tempo decorrido (OpenMP com 16 threads): 0.058977 segundos
+
+Multiprocessing:
+
+Calculando a soma usando 1 processo(s)...
+Soma Total: 5049943464
+Tempo tomado com 1 processo(s): 6.39 segundos
+
+Calculando a soma usando 2 processo(s)...
+Soma Total: 5049943464
+Tempo tomado com 2 processo(s): 3.64 segundos
+
+Calculando a soma usando 4 processo(s)...
+Soma Total: 5049943464
+Tempo tomado com 4 processo(s): 3.62 segundos
+
+Calculando a soma usando 8 processo(s)...
+Soma Total: 5049943464
+Tempo tomado com 8 processo(s): 4.34 segundos
+
+Calculando a soma usando 16 processo(s)...
+Soma Total: 5049943464
+Tempo tomado com 16 processo(s): 4.79 segundos
